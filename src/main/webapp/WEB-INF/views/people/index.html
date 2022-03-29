@@ -16,6 +16,8 @@
 </head>
 <body>
 
+<pre>   User Service!   </pre>
+
 <div th:each="user : ${people}">
     <a th:href="@{/people/{id}(id=${user.getId()})}"
        th:text="${user.getName() + ', ' + user.getAge()}">user</a>
@@ -23,7 +25,6 @@
 
 <br/>
 <hr/>
-<pre>   User Service!   </pre>
 <a href="/people/new">Create new user</a>
 
 </body>
