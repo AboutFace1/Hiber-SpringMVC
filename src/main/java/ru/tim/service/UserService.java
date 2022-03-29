@@ -5,7 +5,6 @@ import ru.tim.model.User;
 import java.util.List;
 
 public interface UserService {
-
     List<User> getAll();
     User getUserById(int id);
     void save(User user);

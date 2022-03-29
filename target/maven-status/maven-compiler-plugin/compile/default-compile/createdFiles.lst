@@ -1,8 +1,7 @@
-ru/tim/config/SpringConfig.class
 ru/tim/service/UserServiceImpl.class
 ru/tim/controllers/PeopleController.class
+ru/tim/App.class
 ru/tim/service/UserService.class
-ru/tim/dao/UserDaoImpl.class
-ru/tim/config/DispServletInitializer.class
+ru/tim/dao/JdbcUserDaoImpl.class
 ru/tim/dao/UserDao.class
 ru/tim/model/User.class

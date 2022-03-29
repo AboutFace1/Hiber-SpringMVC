@@ -1,5 +1,6 @@
 package ru.tim.controllers;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,6 +10,7 @@ import ru.tim.model.User;
 import ru.tim.service.UserService;
 
 import javax.validation.Valid;
+
 
 @Controller
 @RequestMapping("/people")
@@ -21,7 +23,7 @@ public class PeopleController {
         this.userService = userService;
     }
 
-    @GetMapping()
+    @GetMapping("")
     public String index(Model model) {
         model.addAttribute("people", userService.getAll());
         return "people/index";
