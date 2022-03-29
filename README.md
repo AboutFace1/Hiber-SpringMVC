@@ -1,1 +1,1 @@
-# Hiber-SpringMVC
+# Hiber-SpringMVC CRUD App
